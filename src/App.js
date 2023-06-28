@@ -39,7 +39,7 @@ function App() {
       <SearchVenue onAddSearch={addSearch} />
       <ul>
       {venues.map((venue) => (
-         <li key={venue.id}>{venue.name}</li>
+         <li key={venue.fsq_id}>{venue.name}</li>
       ))}
     </ul>
     </div>
