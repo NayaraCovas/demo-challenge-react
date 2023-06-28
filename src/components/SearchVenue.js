@@ -12,7 +12,7 @@ const SearchVenue = ({onAddSearch}) => {
       return
     }
 
-    onAddSearch({ text })
+    onAddSearch(text)
 
     setText('')
     
